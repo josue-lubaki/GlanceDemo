@@ -8,7 +8,7 @@ espressoCore = "3.5.1"
 lifecycleRuntimeKtx = "2.6.2"
 activityCompose = "1.8.1"
 composeBom = "2023.10.01"
-glanceVersion = "1.0.0-alpha05"
+glanceVersion = "1.0.0"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -29,7 +29,7 @@ androidx-material3 = { group = "androidx.compose.material3", name = "material3" 
 # Glance
 androidx-glance = { group = "androidx.glance", name = "glance", version.ref = "glanceVersion" }
 androidx-glance-appwidget = { group = "androidx.glance", name = "glance-appwidget", version.ref = "glanceVersion" }
-#androidx-glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glanceVersion" }
+androidx-glance-material3 = { group = "androidx.glance", name = "glance-material3", version.ref = "glanceVersion" }
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
